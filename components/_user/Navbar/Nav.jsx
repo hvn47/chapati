@@ -13,25 +13,34 @@ export default function Nav() {
       <nav className="flex items-center justify-between max-w-7xl mx-auto py-2 xl:px-0 px-3">
         <div className="font-extrabold text-2xl inline-flex items-center">
           <Drawer />
-          <div className="flex">
+          <Link href={"/"} className="flex cursor-pointer">
             <span>CHAPATI</span>
             <span className="text-[10px]">BBQ</span>
-          </div>
+          </Link>
         </div>
         <div className="hidden md:flex">
           <ul className="flex items-center gap-4">
             <Link href={"/menu"}>
-              <Button variant="ghost" className="text-md font-semibold hover:text-red-500 hover:bg-transparent">
+              <Button
+                variant="ghost"
+                className="text-md font-semibold hover:text-red-500 hover:bg-transparent"
+              >
                 Menu
               </Button>
             </Link>
             <Link href={"/menu"}>
-              <Button variant="ghost" className="text-md font-semibold hover:text-red-500 hover:bg-transparent">
+              <Button
+                variant="ghost"
+                className="text-md font-semibold hover:text-red-500 hover:bg-transparent"
+              >
                 Service
               </Button>
             </Link>
             <Link href={"/menu"}>
-              <Button variant="ghost" className="text-md font-semibold hover:text-red-500 hover:bg-transparent">
+              <Button
+                variant="ghost"
+                className="text-md font-semibold hover:text-red-500 hover:bg-transparent"
+              >
                 Contact Us
               </Button>
             </Link>

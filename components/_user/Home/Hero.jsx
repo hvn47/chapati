@@ -16,7 +16,7 @@ export default function Hero() {
     <div className="relative pb-24 px-10 bg-[#feeadf] pt-32">
       <div className="max-w-7xl mx-auto relative flex flex-col items-center md:flex-row md:order-1 md:items-start justify-between py-10">
         <div className="flex flex-col items-center md:items-start gap-5 order-2">
-          <h1 className="font-extrabold text-4xl text-center max-w-lg md:text-start sm:text-5xl md:text-6xl md:max-w-2xl">
+          <h1 className="font-extrabold text-4xl text-center max-w-md md:text-start sm:text-5xl md:text-6xl md:max-w-2xl">
             With new hot food you can satisfy the craving of your crew
           </h1>
           <div className="flex flex-col items-start gap-3 py-5 w-60">

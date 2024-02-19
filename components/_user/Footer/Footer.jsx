@@ -26,6 +26,7 @@ export default function Footer() {
           <Button className='bg-red-500 hover:bg-red-600'>Submit</Button>
         </div>
       </div>
+      <div></div>
     </footer>
   );
 }
